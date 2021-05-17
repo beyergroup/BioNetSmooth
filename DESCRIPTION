@@ -1,0 +1,18 @@
+Package: BioNetSmooth
+Type: Package
+Title: Spreads signal on interaction network to identify altered subnetworks.
+Version: 1.0.0
+Date: 2016-12-22
+Author: Manopriya Chokkalingam, Cedric Debes, Andreas Beyer
+Maintainer: Manopriya Chokkalingam <mchokka1@uni-koeln.de>, Cedric Debes
+    <Cedric.debes@uni-koeln.de>, Andreas Beyer <andreas.beyer@uni-koeln.de>
+Description: Network propagation/smoothing is a global network scoring approach for inferring the signalling pathways or sub-networks (local dense regions in a global network) that are altered in a given condition using the gene expression data.
+LazyData:TRUE
+License: GPL-2
+Depends:
+    igraph (>= 1.0.1),
+    Matrix (>= 1.2-6)
+Suggests:
+    knitr
+RoxygenNote: 5.0.1
+
